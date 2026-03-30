@@ -11,6 +11,10 @@ const Navbar = () => {
     setIsMenuOpen(false);
   };
 
+  const handleBuyNow = () => {
+    window.location.href = '/book-shop';
+  };
+
   return (
     <nav className="bg-white/80 backdrop-blur-md fixed w-full z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,7 +38,10 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Buy Button */}
-          <button className="hidden md:block bg-amber-600 text-white px-6 py-2 rounded-full hover:bg-amber-700 transition text-base">
+          <button 
+            onClick={handleBuyNow}
+            className="hidden md:block bg-amber-600 text-white px-6 py-2 rounded-full hover:bg-amber-700 transition text-base"
+          >
             Buy Now
           </button>
 
@@ -92,7 +99,13 @@ const Navbar = () => {
               Contact
             </a>
             <div className="pt-2 pb-1">
-              <button className="w-full bg-amber-600 text-white px-4 py-3 rounded-full hover:bg-amber-700 transition text-base font-medium">
+              <button 
+                onClick={() => {
+                  handleBuyNow();
+                  closeMenu();
+                }}
+                className="w-full bg-amber-600 text-white px-4 py-3 rounded-full hover:bg-amber-700 transition text-base font-medium"
+              >
                 Buy Now
               </button>
             </div>

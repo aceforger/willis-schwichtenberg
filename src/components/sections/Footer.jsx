@@ -38,16 +38,36 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-amber-600 transition">
+              <a 
+                href="https://www.facebook.com/profile.php?id=61587398617304" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-gray-800 p-2 rounded-full hover:bg-amber-600 transition"
+              >
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-amber-600 transition">
+              <a 
+                href="#" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-gray-800 p-2 rounded-full hover:bg-amber-600 transition"
+              >
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-amber-600 transition">
+              <a 
+                href="#" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-gray-800 p-2 rounded-full hover:bg-amber-600 transition"
+              >
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-amber-600 transition">
+              <a 
+                href="#" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-gray-800 p-2 rounded-full hover:bg-amber-600 transition"
+              >
                 <Youtube className="h-5 w-5" />
               </a>
             </div>

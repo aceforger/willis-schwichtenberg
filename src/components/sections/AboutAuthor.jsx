@@ -50,8 +50,7 @@ const AboutAuthor = () => {
             <div className="bg-amber-50 p-6 rounded-xl">
               <h3 className="text-xl font-bold text-gray-800 mb-3">Family Life</h3>
               <p className="text-gray-700">
-                Pastor Willis and his wife Alice (a teacher, tutor, and prison ministry worker) 
-                have 4 adult children and 5 grandchildren. They are natives of Minnesota and have 
+                Pastor Willis has 4 adult children and 5 grandchildren. He is a native of Minnesota and has 
                 lived in Freeport, Illinois for nearly 35 years.
               </p>
             </div>
