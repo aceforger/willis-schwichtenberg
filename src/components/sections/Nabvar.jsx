@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   const handleBuyNow = () => {
-    window.location.href = '/book-shop';
+    window.location.href = '/bookshop';
   };
 
   return (
