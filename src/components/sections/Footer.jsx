@@ -25,7 +25,7 @@ const Footer = () => {
             </ul>
           </div>
           
-          <div>
+          {/* <div>
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-amber-500 transition">Blog</a></li>
@@ -33,7 +33,7 @@ const Footer = () => {
               <li><a href="#" className="text-gray-400 hover:text-amber-500 transition">FAQs</a></li>
               <li><a href="#" className="text-gray-400 hover:text-amber-500 transition">Speaking Events</a></li>
             </ul>
-          </div>
+          </div> */}
           
           <div>
             <h3 className="text-lg font-semibold mb-4">Follow Us</h3>

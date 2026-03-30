@@ -1,7 +1,18 @@
 import React from 'react';
 import { ChevronRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
+  const navigate = useNavigate();
+
+  const handleGetCopy = () => {
+    navigate('/bookshop');
+  };
+
+  // const handleLearnMore = () => {
+  //   navigate('/bookshop');
+  // };
+
   return (
     <section id="home" className="min-h-screen flex items-center pt-20 sm:pt-24 md:pt-28 lg:pt-32 pb-12 sm:pb-16 md:pb-20 px-4 sm:px-6 lg:px-8 xl:px-12">
       <div className="w-full max-w-7xl mx-auto">
@@ -25,13 +36,19 @@ const Hero = () => {
             
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 lg:gap-6 pt-2 sm:pt-3 md:pt-4 justify-center md:justify-start">
-              <button className="w-full sm:w-auto bg-amber-600 text-white px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-full text-sm sm:text-base md:text-lg font-semibold hover:bg-amber-700 transition flex items-center justify-center whitespace-nowrap">
+              <button 
+                onClick={handleGetCopy}
+                className="w-full sm:w-auto bg-amber-600 text-white px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-full text-sm sm:text-base md:text-lg font-semibold hover:bg-amber-700 transition flex items-center justify-center whitespace-nowrap"
+              >
                 Get Your Copy 
                 <ChevronRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
               </button>
-              <button className="w-full sm:w-auto border-2 border-amber-600 text-amber-600 px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-full text-sm sm:text-base md:text-lg font-semibold hover:bg-amber-50 transition whitespace-nowrap">
+              {/* <button 
+                onClick={handleLearnMore}
+                className="w-full sm:w-auto border-2 border-amber-600 text-amber-600 px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-full text-sm sm:text-base md:text-lg font-semibold hover:bg-amber-50 transition whitespace-nowrap"
+              >
                 Learn More
-              </button>
+              </button> */}
             </div>
           </div>
           
