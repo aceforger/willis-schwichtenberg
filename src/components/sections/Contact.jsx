@@ -51,7 +51,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center">
                 <Phone className="h-6 w-6 text-amber-600 mr-4" />
-                <span className="text-gray-700">Coming Soon</span>
+                <span className="text-gray-700">(815) 266-9370</span>
               </div>
             </div>
           </div>
